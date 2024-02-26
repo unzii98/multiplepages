@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .box-1{
+        background-color: rgb(33, 241, 123);
+        max-width: 400px;
+        font-weight: bold;
+      }
+      .box-2{
+        background-color: rgb(129, 77, 252);
+        max-width: 400px;
+        font-weight: bold;
+      }
+      .box-3{
+        background-color: rgb(241, 245, 6);
+        max-width: 400px;
+        font-weight: bold;
+      }
+    </style>
+</head>
+<body>
+  <br>
+  <br>
+  <center>
+    <div class="container">
+      <div class="box-1">Step:1 Account</div>
+      <br/>
+      <div class="box-2">Step:2 Personal Detail</div>
+      <br/>
+      <div class="box-3">Step:3 Your Review</div>
+    </div>
+  </center>
+      <fieldset style="background-image: url(https://cdn.pixabay.com/photo/2020/04/16/11/13/background-5050213_1280.png);">
+    <legend style="text-align: center;font-size: 24px">Your Review</legend> 
+       <center>
+       
+          <label for="option">How did hear you about us</label>
+          <select>
+          <option value="Google">Google</option>
+          <option value="Adversting">Adversting</option>
+          <option value="Friends">Friends</option>
+          </select>  
+      
+     
+        <p>Would you again visit again?</p>
+        <input type="radio" name="radio">Yes
+        <input type="radio" name="radio">No
+        <input type="radio" name="radio">Maybe
+        <br/>
+        <label>Comment:<br/>
+          <textarea colspan="10" rows="5" placeholder="Write your Comment here"></textarea>
+        </label>
+        <br/><br/>
+        <input type="file"><br/>
+        <br/>
+        <input type="checkbox" selected>Sign me up for Email Updates.
+        <br/><br/>
+        <a href="./personal.html" class="back"> <button>&laquo; Back</button></a>
+           <a href="./submit.html" class="submit"><button>Submit</button></a>
+    </center>
+    </fieldset>
+</body>
+</html>
